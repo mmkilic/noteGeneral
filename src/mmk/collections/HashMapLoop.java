@@ -5,7 +5,7 @@ import java.util.Map;
 import java.util.Map.Entry;
 import java.util.stream.Collectors;
 
-public class HashMapApp {
+public class HashMapLoop {
 
 	public static void main(String[] args) {
 		Map<String, Integer> mapList = new HashMap<>();

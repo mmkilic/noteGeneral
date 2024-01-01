@@ -27,6 +27,7 @@ public class MinMaxObject {
 		cats.add(new Cat("sekir", 37));
 		
 		Cat minCat = Collections.min(cats, Comparator.comparing(Cat::getAge));
+		//or Cat minCat = Collections.min(cats, Comparator.comparing(c -> c.getAge()));
 		System.out.println(minCat);
 		
 		System.out.println(cats.stream().max(Comparator.comparing(Cat::getAge)).get());
